@@ -1,5 +1,5 @@
 #!/bin/bash
-# Openface train data scrip
-OPENFACE_DIR=/root/openface
+# Checks if a given user is allowed to enter
+$OPT=/opt/data
 
-$OPENFACE_DIR/demos/classifier.py infer /opt/data/features/classifier.pkl
+$OPT/openface/classifier.py infer $OPT/features/classifier.pkl
