@@ -15,7 +15,7 @@ def new_image():
     return "DONE", 200
 
 
-@app.route("check")
+@app.route("/check")
 def check():
     """
     Checks if a given user is allowed to enter
