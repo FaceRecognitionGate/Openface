@@ -4,3 +4,8 @@
 ```
 cp openface/classifier.py ~/openface/demos 
 ```
+
+### Instale o Flask no container
+```
+sudo pip install Flask
+```
