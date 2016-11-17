@@ -1,9 +1,8 @@
 #!/bin/bash
-# Openface align command on our dataset
-OPENFACE_DIR=/root/openface
 RAW_PICS=/opt/data/raw
 FEATURES_DIR=/opt/data/features
 ALIGNED_PICS=/opt/data/aligned
+OPENFACE_DIR=$HOME/openface
 
 for N in {1..8};
 do
