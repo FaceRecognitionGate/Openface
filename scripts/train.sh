@@ -9,4 +9,4 @@ do
     $OPENFACE_DIR/util/align-dlib.py $RAW_PICS align outerEyesAndNose $ALIGNED_PICS --size 96 &
 done \
 && $OPENFACE_DIR/batch-represent/main.lua -outDir $FEATURES_DIR -data $ALIGNED_PICS \
-&& /demos/classifier.py train $FEATURES_DIR
+&& $OPENFACE_DIR/demos/classifier.py train $FEATURES_DIR
