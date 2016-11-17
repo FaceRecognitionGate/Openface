@@ -21,7 +21,7 @@ def check():
     Checks if a given user is allowed to enter
     """
     os.system("sh /opt/data/scripts/teste.sh")
-
+    return "DONE", 200
 
 if __name__ == "__main__":
     app.run()
